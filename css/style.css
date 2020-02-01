@@ -61,3 +61,17 @@ li {
     padding: 0px auto;
 }
 
+.button{
+    padding: 20px 30px;
+    background-color: brown;
+    border: 1px brown;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px){
+h1 {
+    font-size: 500px;
+    font-weight: 900;
+}
+}
+
