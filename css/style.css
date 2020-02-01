@@ -1,19 +1,21 @@
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 30%;
+    margin: 20px;
+    height: auto;
   }
   
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-  
-.container {
-  padding: 2px 16px;
-}
 
 img {
     max-width: 300px;
+    height: 200px;
+}
+.cardsProjects{
+display: flex;
+justify-content: space-around;
 }
 
 #welcome-section {
@@ -24,11 +26,15 @@ img {
     width: 100%;
     height: 100vh;
     margin-top: 100px;
-    background-color: green;
+    background-color: #2196F3;
+    color:#ffffff;
 }
+
+
 
 h1 {
     text-align: center;
+    
 }
 
 nav {
@@ -41,10 +47,13 @@ nav {
     height: 100px;
     top: 0;
     left: 0;
-    background-color: darkgray;
+    background-color: #333;
     align-items: center;
 }
-
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
 ul {
     display: flex;
     justify-content: space-around;
@@ -60,18 +69,33 @@ li {
     justify-content: space-around;
     padding: 0px auto;
 }
-
+.btn-container {
+text-align: center;
+}
 .button{
     padding: 20px 30px;
     background-color: brown;
     border: 1px brown;
     color: #fff;
 }
+.button a {
+    color:white;
+    text-decoration: none;
+}
+
+/* #projects {
+    display: flex;
+
+} */
+.title-Projects{
+    text-align: center;
+}
+
+
 
 @media screen and (max-width: 500px){
 h1 {
-    font-size: 500px;
-    font-weight: 900;
+    font-size: 60px;
 }
 }
 
